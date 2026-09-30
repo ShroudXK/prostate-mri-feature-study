@@ -1,0 +1,16 @@
+# Keep original patient-derived measurements and linkage files out of the public repository.
+/P*_region_summary.csv
+/Healthy_CG/
+/Healthy_PZ/
+/Lesion_CG/
+/Lesion_PZ/
+/data/private/
+/data/raw/
+/outputs/
+/.venv/
+*.egg-info/
+.pytest_cache/
+
+# Local Python artifacts.
+__pycache__/
+*.pyc
